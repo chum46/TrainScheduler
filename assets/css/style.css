@@ -1,0 +1,125 @@
+html {
+    font-size: 18px;
+    /* background-image: url(../images/?????); */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Stylish", sans-serif;
+    color: 3d405b;
+    /* text-align: 0 auto; */
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#subcontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    /* background-color: blanchedalmond; */
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-top: 0%;
+}
+
+h1 {
+    font-size: 2.8em;
+    font-family: 'Cute Font', cursive;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Cute Font', cursive;
+    margin-bottom: 0%;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Cute Font', cursive;
+}
+
+h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    /* color: red; */
+}
+
+td {
+    text-align: center;
+}
+
+table#trainTable {
+    background-color: rgba(102, 102, 102, 0.616);
+}
+
+.boxSet {
+    padding: .75em;
+    /* background-color: rgba(84, 164, 203, 80%); */
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    /* font-weight: 600; */
+    /* line-height: 20px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.button1{
+    /* background-color:red; */
+    padding: .5em;
+    /* font-family: 'Cute Font', cursive; */
+    font-size:12px;
+    /* position:relative; */
+    transition: .5s ease;
+    /* top: 50%;
+    left: 43%;   */
+    border-color: black;
+    /* margin-top: 1em;
+    margin-bottom: 1em; */
+}
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* #footer {
+    position: relative;
+    bottom: 0px;
+    background: #666666;
+    height: 70px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    color:black;
+    border-top: 2px solid #4aaaa5;
+} */
